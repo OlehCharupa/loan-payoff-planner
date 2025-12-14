@@ -1,0 +1,22 @@
+{
+  "app.title": "Loan Payoff Planner",
+  "app.description": "Enter your loan details to see payoff time and total interest.",
+  "form.loanAmount": "Loan amount",
+  "form.annualRate": "Annual interest rate (%)",
+  "form.monthlyPayment": "Monthly payment",
+  "form.submit": "Calculate",
+  "summary.monthsToPayoff": "Months to payoff",
+  "summary.totalInterest": "Total interest",
+  "summary.totalPaid": "Total paid",
+  "summary.payoffDate": "Payoff date",
+  "state.noCalculation": "No calculation yet. Fill the form and press \"Calculate\".",
+  "state.error": "Calculation error",
+  "header.language": "Language",
+  "lang.uk": "Ukrainian",
+  "lang.en": "English",
+  "table.month": "Month",
+  "table.payment": "Payment",
+  "table.interest": "Interest",
+  "table.principal": "Principal",
+  "table.balance": "Balance"
+}

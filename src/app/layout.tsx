@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider, CssBaseline, Container } from "@mui/material";
 import { theme } from "@/shared/theme";
+import { I18nProvider } from "@/i18n/I18nProvider";
 
 export const metadata: Metadata = {
   title: "Loan Payoff Planner",
@@ -10,14 +11,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="uk" suppressHydrationWarning>
       <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Container maxWidth="lg" sx={{ py: 4 }}>
-            {children}
-          </Container>
-        </ThemeProvider>
+        <I18nProvider>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Container maxWidth="lg" sx={{ py: 4 }}>
+              {children}
+            </Container>
+          </ThemeProvider>
+        </I18nProvider>
       </body>
     </html>
   );

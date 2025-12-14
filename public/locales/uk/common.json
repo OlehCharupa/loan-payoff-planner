@@ -1,0 +1,22 @@
+{
+  "app.title": "Планувальник погашення кредиту",
+  "app.description": "Введи параметри кредиту, щоб побачити строк погашення та суму відсотків.",
+  "form.loanAmount": "Сума кредиту",
+  "form.annualRate": "Річна ставка (%)",
+  "form.monthlyPayment": "Щомісячний платіж",
+  "form.submit": "Розрахувати",
+  "summary.monthsToPayoff": "Місяців до погашення",
+  "summary.totalInterest": "Загальні відсотки",
+  "summary.totalPaid": "Всього сплачено",
+  "summary.payoffDate": "Дата повного погашення",
+  "state.noCalculation": "Поки що немає розрахунку. Заповни форму та натисни «Розрахувати».",
+  "state.error": "Помилка розрахунку",
+  "header.language": "Мова",
+  "lang.uk": "Українська",
+  "lang.en": "English",
+  "table.month": "Місяць",
+  "table.payment": "Платіж",
+  "table.interest": "Відсотки",
+  "table.principal": "Тіло кредиту",
+  "table.balance": "Баланс"
+}
